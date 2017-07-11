@@ -1,14 +1,13 @@
-## Slack Bot (customized using this [tutorial](https://github.com/slackapi/Slack-Python-Onboarding-Tutorial))
-----
+Slack Bot (customized using this [tutorial](https://github.com/slackapi/Slack-Python-Onboarding-Tutorial))
+======================
 
-## Requirements
-----
+# Requirements
+
 - Python 2.7
 - virtualenvwrapper
 - [heroku](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
 
-## install
-----
+# install
 
 1. clone git repository
 
@@ -25,7 +24,6 @@ pip install -r requirements.txt
 ```
 
 3. set enviromental variables
-
 - get the token below from [this website](https://api.slack.com/tutorials)
 - you can get SK_PLANET_KEY from [this website](https://developers.skplanetx.com/apidoc/)
 
@@ -39,9 +37,7 @@ export SK_PLANET_KEY = 'your sk planet key'
 
 4. set webhook url in [slack page](https://api.slack.com/tutorials) with the endpoint of handlers 
 
-## deploy (heroku)
-----
-
+# deploy (heroku)
 
 ```
 heroku login
